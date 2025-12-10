@@ -1,0 +1,33 @@
+Create Key Pair in AWS Console (RSA | Name: datacenter-kp)
+
+Log in to the AWS Management Console
+
+Go to: https://console.aws.amazon.com/
+
+Navigate to EC2
+
+From the services menu, select EC2.
+
+Open Key Pairs Section
+
+In the left navigation pane, scroll to Network & Security.
+
+Click Key Pairs.
+
+Create a New Key Pair
+
+Click the Create key pair button.
+
+Enter Key Pair Details
+
+Name: datacenter-kp
+
+Key pair type: Select RSA
+
+Private key format: Select .pem (recommended) or .ppk (for PuTTY)
+
+Create Key Pair
+
+Click Create key pair.
+
+The private key file (datacenter-kp.pem) will automatically download to your system.
